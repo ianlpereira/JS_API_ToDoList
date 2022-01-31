@@ -12,7 +12,7 @@ let url =
 formTODO.innerHTML = `
   <h1>Olá Usuário: ${sessionData}</h1>
   <form id="addFormTodo" class="todo-form-render" onsubmit="addNovoTodo(event)">
-    <input type="text" id="titulo"><br>
+    <input type="text" class="inp-txt" id="titulo"><br>
     <button type="submit" class="btn btn-primary" value="Submit">Nova Nota</button>
   </form>
 `;
@@ -32,8 +32,12 @@ let renderTodo = (posts) => {
     }</span>
             ${
               todo.completed
-                ? `<input class="checkTODO" type="checkbox" id="${todo.id}" checked value="todoStatus" onclick="checkboxEdit(${todo.id}, checked)"></input>`
-                : `<input class="checkTODO" type="checkbox" id="${todo.id}" value="todoStatus" onclick="checkboxEdit(${todo.id}, checked)"></input>`
+                ? `
+                <input class="form-check-input" type="checkbox" id="${todo.id}" checked value="todoStatus" onclick="checkboxEdit(${todo.id}, checked)"></input>
+                `
+                : `
+                <input class="form-check-input" type="checkbox" id="${todo.id}" value="todoStatus" onclick="checkboxEdit(${todo.id}, checked)"></input>
+                `
             }
             </div>
             `;

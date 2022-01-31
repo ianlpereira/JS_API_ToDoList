@@ -1,7 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ececec;
+  background-image: url(https://wallpapercave.com/wp/wp1966207.jpg);
 }
+.btn{
+  margin: 20px;
+  background-color: #385170be;
+  border-color: #385170;
+}
+
+.inp-txt{
+  border-radius: 10px;
+}
+
 .post-list {
   font-family: "Roboto", sans-serif;
   opacity: 80%;
@@ -19,13 +29,15 @@ body {
 
 .card-user {
   font-family: "Roboto", sans-serif;
+  font-size: larger;
+  color: aliceblue;
   box-shadow: 2px 2px #385170;
-  background-color: #9fd3c7;
+  background-color: #9fd3c78e;
   border: 2px solid #9fd3c7;
   width: 28%;
-  padding: 20px 0;
+  padding: 40px 0;
   margin-top: 2px;
-  border-radius: 60px;
+  border-radius: 20px;
   text-align: center;
   margin: 20px;
   min-width: 300px;
@@ -41,13 +53,14 @@ body {
 }
 
 .todo-form {
+  color: aliceblue;
   font-family: "Roboto", sans-serif;
   box-shadow: 2px 2px #385170;
-  background-color: #9fd3c7;
+  background-color: #9fd3c78e;
   border: 2px solid #9fd3c7;
   width: 28%;
   padding: 20px 0;
-  border-radius: 60px;
+  border-radius: 20px;
   text-align: center;
   margin: 2px auto;
   min-width: 300px;
