@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ececec;
+}
+.post-list {
+  font-family: "Roboto", sans-serif;
+  opacity: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post-div {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-user {
+  font-family: "Roboto", sans-serif;
+  box-shadow: 2px 2px #385170;
+  background-color: #9fd3c7;
+  border: 2px solid #9fd3c7;
+  width: 28%;
+  padding: 20px 0;
+  margin-top: 2px;
+  border-radius: 60px;
+  text-align: center;
+  margin: 20px;
+  min-width: 300px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkTODO {
+  font-family: "Roboto", sans-serif;
+  background-color: blue;
+}
+
+.todo-form {
+  font-family: "Roboto", sans-serif;
+  box-shadow: 2px 2px #385170;
+  background-color: #9fd3c7;
+  border: 2px solid #9fd3c7;
+  width: 28%;
+  padding: 20px 0;
+  border-radius: 60px;
+  text-align: center;
+  margin: 2px auto;
+  min-width: 300px;
+  max-width: 450px;
+}
