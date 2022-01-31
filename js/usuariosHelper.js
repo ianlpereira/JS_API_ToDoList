@@ -10,9 +10,9 @@ let renderPosts = (posts) => {
   posts.forEach((user) => {
     output += `
         <div class="card-user" id="${user.id}"   onclick="location.href='usuario.html'">
-        <h2>ID do Usuário: ${user.id}</h2>
-        <h1>Nome: ${user.name}</h1>
-        <h2>Usuário: ${user.username}</h2>
+        <h1 >ID do Usuário:</h1><h2>${user.id}</h2>
+        <h1>Nome: </h1><h2>${user.name}</h2>
+        <h1>Usuário: </h1><h2>${user.username}</h2>
         </div>
         `;
   });

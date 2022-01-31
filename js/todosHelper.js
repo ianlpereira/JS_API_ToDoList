@@ -13,7 +13,7 @@ formTODO.innerHTML = `
   <h1>Olá Usuário: ${sessionData}</h1>
   <form id="addFormTodo" class="todo-form-render" onsubmit="addNovoTodo(event)">
     <input type="text" id="titulo"><br>
-    <input type="submit" value="Submit">
+    <button type="submit" class="btn btn-primary" value="Submit">Nova Nota</button>
   </form>
 `;
 
