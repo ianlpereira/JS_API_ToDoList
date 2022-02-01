@@ -1,5 +1,5 @@
 ##Olá!
-## Este projeto é referente a vaga para Desenvolvedor FrontEnd para a empresa Escola Mais.
+## Este projeto é referente a um teste para desenvolvedor front end.
 No projeto foi pedido:
 1 - Utilizar a API https://jsonplaceholder.typicode.com/ para criar um TODO list;
 
